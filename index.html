@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instituição Educacional </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body> 
+
+  <!-- Cabeçalho / Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      <div class="container">
+        <a class="navbar-brand" href="#">Matos Industrial </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Seção principal / Hero -->
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4 mb-3">Bem-vindo a Arte e Madeira</h1>
+      <p class="lead mb-4">Excelência em educação para transformar seu futuro.</p>
+      <a href="#cursos" class="btn btn-dark btn-lg">Conheça nossos cursos!</a>
+    </div>
+  </section>
+
+  <!-- Sobre a instituição -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Sobre Nós</h2>
+      <p class="text-center mx-auto" style="max-width: 700px;">
+        A Educa+ é uma instituição comprometida com a qualidade do ensino, oferecendo cursos presenciais e online com professores altamente qualificados. Nosso objetivo é preparar você para os desafios do mercado de trabalho com uma formação sólida e atualizada.
+      </p>
+    </div>
+  </section>
+
+  <!-- Cursos -->
+  <section id="cursos" class="py-5 bg-warning text-white">
+    <div class="container">
+      <h2 class="mb-4 text-center">Nossos Cursos</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card bg-light text-dark h-100">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Tecnologia</h5>
+              <p class="card-text">Aprenda programação, desenvolvimento web e muito mais com nossos especialistas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light text-dark h-100">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Administração</h5>
+              <p class="card-text">Desenvolva habilidades em gestão, finanças e empreendedorismo para o mercado atual.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light text-dark h-100">
+            <div class="card-body">
+              <h5 class="card-title">Curso de Design</h5>
+              <p class="card-text">Explore criatividade e técnicas de design gráfico e digital com profissionais renomados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipe -->
+  <section id="equipe" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Nossa Equipe</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-sm-6 col-md-3 text-center">
+          <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Prof. Maria Silva" />
+          <h5>Prof. Maria Silva</h5>
+          <p>Coordenadora Pedagógica</p>
+        </div>
+        <div class="col-sm-6 col-md-3 text-center">
+          <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Prof. João Souza" />
+          <h5>Prof. João Souza</h5>
+          <p>Professor de Tecnologia</p>
+        </div>
+        <div class="col-sm-6 col-md-3 text-center">
+          <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Prof. Ana Lima" />
+          <h5>Prof. Ana Lima</h5>
+          <p>Professora de Administração</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Contato</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="seu@email.com" required />
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-warning text-white text-center py-3">
+    <div class="container">
+      <small>© 2025 Educa+. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (inclui Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
